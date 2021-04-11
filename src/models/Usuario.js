@@ -32,3 +32,5 @@ class Usuario {
    */
   seguirUsuario(outroUsuario) {}
 }
+
+module.exports = Usuario
