@@ -22,7 +22,9 @@ class Usuario {
    *
    * usuario.curtirFile("Harry Potter e a pedra filosofal")
    */
-  curtirFilme(nomeDoFilme) {}
+  curtirFilme(nomeDoFilme) {
+    console.log(`"${this.nomeDeUsuario}" curtiu "${nomeDoFilme}"`)
+  }
 
   /*
    * ou seguir outro usuário:
@@ -30,7 +32,9 @@ class Usuario {
    * let outro = new Usuario("amigo@email.com", "02/01/1994", "meu-amigo")
    * usuario.seguirUsuario(outro)
    */
-  seguirUsuario(outroUsuario) {}
+  seguirUsuario(outroUsuario) {
+    console.log(`"${this.nomeDeUsuario}" agora segue "${outroUsuario.nomeDeUsuario}"`)
+  }
 }
 
 module.exports = Usuario
