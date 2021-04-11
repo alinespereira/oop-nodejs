@@ -1,0 +1,20 @@
+{
+  "name": "oop-nodejs",
+  "version": "1.0.0",
+  "description": "Conceitos de OOP",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinespereira/oop-nodejs.git"
+  },
+  "author": "Aline Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinespereira/oop-nodejs/issues"
+  },
+  "homepage": "https://github.com/alinespereira/oop-nodejs#readme"
+}
